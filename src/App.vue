@@ -1,22 +1,24 @@
 <template>
   <v-app>
-    <v-container secondary fill-height fluid> 
-      <Boxes />
-      </v-container>
+    <v-main style="background: #b1bcd0">
+        <AppBar />
+    </v-main>
   </v-app>
 </template>
 
 <script>
-import Boxes from "./components/Boxes";
-
+import AppBar from "./components/AppBar";
 export default {
   name: "App",
   components: {
-    Boxes,
+
+    AppBar,
   },
 };
 </script>
 
 <style>
-html { overflow-y: auto }
+html {
+  overflow-y: auto;
+}
 </style>
