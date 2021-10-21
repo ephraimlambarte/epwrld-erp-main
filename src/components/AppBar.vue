@@ -1,5 +1,4 @@
 <template>
-  <v-container fluid fill-height>
     <v-app-bar color="secondary" dark fixed>
       <v-app-bar-nav-icon> <v-icon>fas fa-rocket</v-icon> </v-app-bar-nav-icon>
       <v-toolbar-title></v-toolbar-title>
@@ -67,12 +66,9 @@
         </v-card>
       </v-menu>
     </v-app-bar>
-    <Landing />
-  </v-container>
 </template>
 
 <script>
-import Landing from "./Landing";
 export default {
   name: "AppBar",
   data: () => ({
@@ -86,7 +82,6 @@ export default {
     },
   },
   components: {
-    Landing,
   },
 };
 </script>

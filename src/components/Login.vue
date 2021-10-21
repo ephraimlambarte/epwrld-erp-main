@@ -28,7 +28,7 @@
 
         <v-checkbox v-model="checkbox" label="Remember Me"></v-checkbox>
 
-        <v-btn block color="primary" class="mr-4" @click="validate">
+        <v-btn block to="/MainPage" color="primary" class="mr-4" @click="validate">
           Sign In
         </v-btn>
         <v-row class="mt-4" no-gutters>
@@ -59,8 +59,10 @@ export default {
   methods: {
     validate() {
       this.$refs.form.validate();
+      }
+
     },
-  },
+
 };
 </script>
 
