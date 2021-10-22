@@ -1,5 +1,5 @@
 <template>
-  <v-container style="max-width: 900px">
+  <v-container style="margin-top: 50px; max-width: 900px;">
       <v-row
         no-gutters
         class="text-center"
