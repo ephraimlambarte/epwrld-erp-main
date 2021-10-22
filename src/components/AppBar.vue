@@ -56,7 +56,7 @@
               <v-btn text plain>My Account</v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn text plain>My Profile</v-btn>
+              <v-btn to="./ProfileForm" text plain>My Profile</v-btn>
             </v-list-item>
             <v-list-item>
               <v-btn text plain color="red">Sign Out</v-btn>

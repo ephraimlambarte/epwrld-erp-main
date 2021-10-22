@@ -1,4 +1,7 @@
 <template>
+<v-container fluid fill-height>
+  <v-layout align="end" justify-center align-center>
+    <v-card width="400" dark color="secondary" class="rounded-lg" outlined tile elevation="2">
   <v-container>
     <v-card-title
       >Sign In
@@ -28,7 +31,7 @@
 
         <v-checkbox v-model="checkbox" label="Remember Me"></v-checkbox>
 
-        <v-btn block to="/MainPage" color="primary" class="mr-4" @click="validate">
+        <v-btn block to="./MainPage" color="primary" class="mr-4" @click="validate">
           Sign In
         </v-btn>
         <v-row class="mt-4" no-gutters>
@@ -38,6 +41,9 @@
         </v-row>
       </v-form>
     </v-card-subtitle>
+  </v-container>
+      </v-card>
+  </v-layout>
   </v-container>
 </template>
 
